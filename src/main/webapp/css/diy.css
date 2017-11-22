@@ -1,0 +1,115 @@
+﻿/*
+用户自定义样式
+*/
+
+/*QQ客服 改QQ号码在QQ.js*/                       
+.kf-xftb{position:fixed;top:300px;left:0px;z-index:10;background:url(images/customerservice.png) no-repeat;width:53px;height:88px;_display:none;cursor:pointer;}
+.kf-lf-lj{background:url(images/customerservice1.png) no-repeat right;width:191px;height:220px;position:fixed;top:270px;left:-191px;z-index:10;padding-top:80px;_display:none;cursor:pointer;}
+.kf-lf-lj a{display:block;width:120px;height:30px;text-decoration:none;}
+.kf-lf-lj a span{display:block;line-height:30px;background:url(images/customer_service_qqout.png) no-repeat left center;padding-left:20px;color:#7D7D7D;font-size:12px;margin-left:10px;text-align:left;}
+.kf-lf-lj a:hover{background:#e21001;border-radius:5px;text-decoration:none;}
+.kf-lf-lj a:hover span{background:url(images/customer_service_qqout1.png) no-repeat left center;color:white;}
+
+/*英文QQ客服*/
+.kf1-xftb{position:fixed;top:300px;left:0px;z-index:10;background:url(images/customerservice2.png) no-repeat;width:53px;height:88px;_display:none;cursor:pointer;}
+.kf1-lf-lj{background:url(images/customerservice3.png) no-repeat right;width:191px;height:220px;position:fixed;top:270px;left:-191px;z-index:10;padding-top:80px;_display:none;cursor:pointer;}
+.kf1-lf-lj a{display:block;width:120px;height:30px;text-decoration:none;}
+.kf1-lf-lj a span{display:block;line-height:30px;background:url(images/customer_service_qqout.png) no-repeat left center;padding-left:20px;color:#7D7D7D;font-size:12px;margin-left:10px;text-align:left;}
+.kf1-lf-lj a:hover{background:#e21001;border-radius:5px;text-decoration:none;}
+.kf1-lf-lj a:hover span{background:url(images/customer_service_qqout1.png) no-repeat left center;color:white;}
+
+
+/*左侧浮动返回顶部图标样式*/
+a.gotoptop_icon{display:block;position:fixed;right:5px;bottom:130px;z-index:10;width:56px;height:57px;background:url(images/backtotop.png) no-repeat;cursor:pointer;display:none}
+a.gotoptop_icon:hover{background-position:0px 0px;}
+
+/*首页轮播*/
+.bt_box{clear:both;overflow:hidden;width:400px;height:150px;background:rgba(0,0,0,0.4);padding:50px;margin:310px auto 0px auto;}
+.bt_box .bt2{font-size:40px;color:rgb(255,255,255);font-family:华文行楷;line-height:130%;text-align:center;}
+
+/*介绍*/
+.sy_jjbox{clear:both;overflow:hidden;background:rgb(67,67,67);padding:30px 0px;}
+.jjbox1{clear:both;overflow:hidden;font-size:30px;font-family:Tahoma;color:rgb(204,204,204);background:url(images/call_vd94.png) no-repeat left center;padding:0px 0px 0px 35px;width:190px;margin:0px auto;}
+.jjbox2{clear:both;overflow:hidden;color:rgb(187,187,187);font-family:微软雅黑;font-size:16px;line-height:180%;max-width:1200px;margin:10px auto;}
+.jjbox3{clear:both;overflow:hidden;}
+.jjbox3 a{display:block;width:150px;height:36px;line-height:36px;background:#CC0000;color:rgb(255,255,255);font-size:14px;margin:0px auto;}
+
+/*客房*/
+#module_content_222 .tw_articles li{float:left;width:584px;height:auto;padding:0px;border:0px;}
+#module_content_222 .tw_articles li.art_left{margin-right:32px;}
+#module_content_222 .tw_articles .pic{width:100%;height:auto;margin:10px 0px 10px 0px;border:0px;}
+#module_content_222 .tw_articles .pic a{display:block;position:relative;}
+#module_content_222 .tw_articles .pic a em.art_bg{display:block;width:100%;height:100%;background:#fff;opacity:0;filter:alpha(opacity=0);position:absolute;top:0px;left:0px;transition:all 0.5s ease;}
+#module_content_222 .tw_articles .pic a:hover em.art_bg{opacity:0.7;filter:alpha(opacity=70);}
+#module_content_222 .tw_articles .pic a i.ckxq_box{position:absolute;top:50%;left:0px;display:block;width:100%;line-height:30px;text-align:center;font-style:normal;font-size:20px;font-weight:normal;color:#333;margin-top:-30px;opacity:0;filter:alpha(opacity=0);transition:all 0.5s ease;}
+#module_content_222 .tw_articles .pic a:hover  i.ckxq_box{color:#333;opacity:1;filter:alpha(opacity=100);}
+#module_content_222 .tw_articles .title{display:block;text-align:center;line-height:140%;margin:5px 0px;}
+#module_content_222 .tw_articles .title a{font-size:20px;color:#d9d9d9;font-weight:bold;}
+#module_content_222 .tw_articles .date{display:none;line-height:normal;font-size:12px;color:#929292;}
+#module_content_222 .tw_articles .introduct{font-size:14px;color:#cccccc;line-height:20px;padding:0px;}
+
+
+/*底部*/
+.db_dzbox{clear:both;overflow:hidden;width:1200px;margin:40px auto;}
+.db_dzbox li{float:left;width:33.33%;padding:50px 0px 0px 0px;font-size:14px;color:rgb(153,153,153);}
+.dzbox_li1{background:url(images/location_og6n.png) no-repeat center top;}
+.dzbox_li2{background:url(images/location_og6n1.png) no-repeat center top;}
+.dzbox_li3{background:url(images/location_og6n2.png) no-repeat center top;}
+
+.db_ba_box{clear:both;overflow:hidden;background:#000;}
+.db_ba{clear:both;overflow:hidden;width:1200px;margin:20px auto;}
+.db_ba .db_left{float:left;text-aligN:left;font-size:14px;color:rgb(255,255,255);}
+.db_ba .db_right{float:right;}
+.db_ba .db_right img{display:block;}
+.db_ba .db_right span{display:block;line-height:25px;color:#fff;}
+
+
+/*立即预定*/
+.ljyd_box{clear:both;overflow:hidden;width:430px;margin:0px auto;}
+.ljyd_s{display:block;width:430px;padding:0px 10px;background:#D9D9D9;border:0px;height:35px;line-height:35px;margin-bottom:10px;}
+.laydate-icon.ydrq{background:#D9D9D9 url(/e/js/zdy/dahong/icon.png) no-repeat right center;height:35px;line-height:35px;border:0px;width:345px;padding:0px 35px 0px 10px;margin-bottom:10px;}
+#pa_xzkf{display:block;width:390px;padding:0px 10px;background:#D9D9D9;border:0px;height:35px;line-height:35px;color:#434343;margin-bottom:10px;}
+#pa_xzkf option{background:white;border:0px;}
+#content{display:block;width:430px;padding:5px 10px;background:#D9D9D9;border:0px;height:88px;line-height:22px;margin-bottom:10px;}
+#vcode{width:80px;padding:0px 10px;background:#D9D9D9;border:0px;height:30px;line-height:30px;margin-bottom:10px;}
+.bt{border:0px;width:430px;height:35px;line-height:35px;background:#cc0000;font-size:15px;color:white;}
+
+
+
+
+
+
+
+
+/*联系我们*/
+.page_l81_sl665 .main_box_style{background:url(images/youshi_qvk0.jpg) no-repeat center 0;}
+.zlm_gsdz_box{clear:both;overflow:hidden;}
+.gsdz_left{float:left;width:515px;}
+.gsdz_left img{float:right;width:285px;height:285px;margin-top:40px;}
+.gsdz_right{float:right;width:570px;}/*在线留言*/
+.yuyuebiao{margin:0 auto;}
+.yuyuebiao li{clear:both;overflow:hidden;text-align:left;margin-bottom:10px;}
+.yuyuebiao li span{float:left;margin-right:2px;}
+.yuyuebiao .titles{height:30px;line-height:30px;margin:3px 0;}
+.yuyuebiao .wbk{width:480px;padding:0px 5px;border:1px dashed #666666;height:30px;line-height:30px;}
+.yuyuebiao #content{width:480px;padding:0px 5px;border:1px dashed #666666;line-height:30px;min-height:100px}
+.yuyuebiao #vcode{width:70px;padding:0px 5px;border:1px dashed #666666;height:26px;line-height:26px;margin:0px;}
+.yuyuebiao .bt{background:#ff7675;border:none;width:100%;height:30px;line-height:30px;color:#FFF;margin-top:10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
